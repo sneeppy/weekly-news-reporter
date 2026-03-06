@@ -1,0 +1,42 @@
+{
+  "feeds": [
+    {
+      "name": "Habr / AI",
+      "url": "https://habr.com/ru/rss/hub/artificial_intelligence/?fl=ru"
+    },
+    {
+      "name": "Habr / ML",
+      "url": "https://habr.com/ru/rss/hub/machine_learning/?fl=ru"
+    },
+    {
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml"
+    }
+  ],
+  "topics": [
+    {
+      "name": "LLM и генеративный ИИ",
+      "keywords": ["llm", "gpt", "claude", "llama", "mistral", "gemini", "rag", "prompt", "inference", "agent"]
+    },
+    {
+      "name": "Компьютерное зрение",
+      "keywords": ["cv", "computer vision", "segmentation", "detection", "yolo", "vit", "diffusion", "image"]
+    },
+    {
+      "name": "Классический ML/DS",
+      "keywords": ["xgboost", "catboost", "lightgbm", "sklearn", "regression", "classification", "feature", "dataset"]
+    }
+  ],
+  "report": {
+    "days": 7,
+    "max_items_per_topic": 12,
+    "output_dir": "reports",
+    "data_dir": "data",
+    "timezone": "local"
+  },
+  "http": {
+    "timeout_seconds": 20,
+    "user_agent": "weekly-news-reporter/1.0 (+local prototype)"
+  }
+}
+
